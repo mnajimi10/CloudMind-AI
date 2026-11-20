@@ -1,0 +1,43 @@
+{
+    "total_rows": 900,
+    "valid_rows": 897,
+    "rejected_rows": 3,
+    "quality_percentage": 99.67,
+    "rules": [
+        {
+            "rule": "DQ001",
+            "failed_rows": 0,
+            "description": "Missing required fields"
+        },
+        {
+            "rule": "DQ002",
+            "failed_rows": 0,
+            "description": "Invalid dates"
+        },
+        {
+            "rule": "DQ003",
+            "failed_rows": 0,
+            "description": "Invalid numeric values"
+        },
+        {
+            "rule": "DQ004",
+            "failed_rows": 0,
+            "description": "Negative values"
+        },
+        {
+            "rule": "DQ005",
+            "failed_rows": 0,
+            "description": "Duplicate business keys"
+        },
+        {
+            "rule": "DQ006",
+            "failed_rows": 0,
+            "description": "Invalid JSON tags"
+        },
+        {
+            "rule": "DQ007",
+            "failed_rows": 3,
+            "description": "Inconsistent cost"
+        }
+    ]
+}

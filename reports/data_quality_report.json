@@ -1,0 +1,49 @@
+{
+    "source_file": "azure_costs_corrupted.csv",
+    "total_rows": 900,
+    "valid_rows": 890,
+    "rejected_rows": 10,
+    "quality_percentage": 98.89,
+    "rules": [
+        {
+            "rule": "DQ001",
+            "failed_rows": 0,
+            "description": "Missing columns: []"
+        },
+        {
+            "rule": "DQ002",
+            "failed_rows": 1,
+            "description": "Missing required values"
+        },
+        {
+            "rule": "DQ003",
+            "failed_rows": 1,
+            "description": "Invalid or missing dates"
+        },
+        {
+            "rule": "DQ004",
+            "failed_rows": 1,
+            "description": "Invalid numeric values"
+        },
+        {
+            "rule": "DQ005",
+            "failed_rows": 1,
+            "description": "Negative quantity, price or cost"
+        },
+        {
+            "rule": "DQ006",
+            "failed_rows": 1,
+            "description": "Duplicate business keys"
+        },
+        {
+            "rule": "DQ007",
+            "failed_rows": 1,
+            "description": "Invalid JSON tags"
+        },
+        {
+            "rule": "DQ008",
+            "failed_rows": 5,
+            "description": "Cost does not match quantity multiplied by price"
+        }
+    ]
+}
